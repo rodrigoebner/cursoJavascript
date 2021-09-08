@@ -10,7 +10,7 @@ var mayorEdad = (ingresaEdad >= 18);
 
 //Condición de ingreso en base a IF y uso de operador lógico - en false.
 if(mayorEdad){
-    console.log("Gracias por ingresar " + ingresaNombre + ", ya eres parte del equipo!");
+    alert("Gracias por ingresar " + ingresaNombre + ", ya eres parte del equipo!");
 } else {
-    console.log("Lo sentimos " + ingresaNombre + ", necesitas ser mayor de edad para ingresar" + ". Pero no te preocupes, sólo faltan " + (18 - ingresaEdad) + " años, y podrás estar dentro ;)");
+    alert("Lo sentimos " + ingresaNombre + ", necesitas ser mayor de edad para ingresar" + ". Pero no te preocupes, sólo faltan " + (18 - ingresaEdad) + " años, y podrás estar dentro ;)");
 }
