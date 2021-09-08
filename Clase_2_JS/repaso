@@ -1,0 +1,71 @@
+//Texto
+var nombre = 
+
+
+
+// Prompt siempre retorna texto
+
+var nombre = promt("ingresa tu nombre:")
+console.log("el nombre ingresado es:"+ nombre);
+
+//
+var edad = prompt("ingresa tu edad:");
+console.log("la edad ingresada es:" + edad)
+
+
+//Comparación
+var sonIguales = ("lo mismo" === "lo mismo");
+console.log("son lo mismo")
+
+if (sonIguales){
+    console.log("son lo mismo")
+} else {
+    console.log("Esto No es lo mismo")
+}
+
+//Caso Falso
+var sonIguales = ("lo mismo" === "Diferente");
+console.log("son lo mismo")
+
+if (sonIguales){
+    console.log("son lo mismo")
+} else {
+    console.log("Esto No es lo mismo")
+}
+
+// Operadores
+1>2
+false
+2>1
+true
+1<=2
+true
+1 == 1
+true
+1 == "1"
+true
+1 === "1"
+false
+1 == 1
+true
+1 !== 1 //Distinto, la condicion es falsa porque 1 es igual a 1
+false
+1 !== 2 //distinto, la condicion es verdadera porque 1 es distinto a 1
+true
+!true // EL ! invierte el valor de la condición
+false
+!false
+true
+
+!( 1===1) // fuerza el valor
+false
+
+
+var !sonIguales = ("lo mismo" === "Diferente");
+console.log("son lo mismo")
+
+if (sonIguales){
+    console.log("son lo mismo")
+} else {
+    console.log("Esto No es lo mismo")
+}
